@@ -4,7 +4,7 @@ class Home extends Component{
     render(){
         return(
             <>
-            <h1>Hello !</h1><h1>I`am Md. Imran</h1>
+            <h1 className="bg-blue-400">Hello !</h1><h1>I`am Md. Imran</h1>
             </>
         );
     }
