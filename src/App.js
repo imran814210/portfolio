@@ -14,11 +14,11 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <div>
-        <Routes>
+        <Routes>          
+          <Route path='/home' element={<Home/>}/>
           <Route path='/work' element={<Work/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
-          <Route path='/' element={<Home/>}/>
         </Routes>
       </div>
     </BrowserRouter>
